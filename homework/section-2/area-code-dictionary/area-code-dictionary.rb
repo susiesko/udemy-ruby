@@ -1,5 +1,5 @@
-def get_cities
-  {
+def print_cities
+  cities = {
     "city1"=>"212",
     "city2"=>"323",
     "city3"=>"434",
@@ -11,21 +11,16 @@ def get_cities
     "city9"=>"909",
     "city10"=>"919",
   }
+  cities.each do |key,value|
+    puts key
+  end
 end
 
 def welcome_message
   puts "Welcome!"
   puts "Here are a list of cities to search"
   
-  get_cities.each do |key,value|
-    puts key
-  end
-end
-
-def run_search
-  while true
-    break;
-  end 
+  print_cities
 end
 
 def get_search_input
