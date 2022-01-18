@@ -34,7 +34,7 @@ body {
 }
 
 p {
-  margin: 0px 0px 26px;
+  margin: 16px 0px;
 }
 
 h1,
@@ -49,7 +49,7 @@ h6 {
 
 h1 {
   font-size: 200%;
-  margin-bottom: 40px;
+  margin-bottom: 16px;
 }
 
 h2 {
@@ -71,6 +71,24 @@ h5 {
 h6 {
   font-size: 50%;
 }
+
+td {
+  padding: 8px;
+}
+
+tbody tr:nth-child(odd) {
+  background: #eee;
+}
+
+tbody tr:nth-child(even) {
+  background: #ccc;
+}
+
+thead tr {
+  background: navy;
+  color: white;
+}
+
 label {
   display: block;
   margin-bottom: 5px;
